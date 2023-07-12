@@ -7,15 +7,15 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "true"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": true""
         },
         "WEBHOOK": {
             "description": "if your server is need web service! value = True else value = False",
-            "value": "False"
+            "value": "true"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
