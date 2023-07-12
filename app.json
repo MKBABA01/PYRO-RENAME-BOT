@@ -7,11 +7,11 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": "true"
+            "value": "20886519"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": true""
+            "value": "200096623fc84f791d07d8b44169b163"
         },
         "WEBHOOK": {
             "description": "if your server is need web service! value = True else value = False",
@@ -19,12 +19,12 @@
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
-            "required": false 
+            "value": "hellomerijaanm",
+            "required": true 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "6329010856:AAHbsBwdB_2OaP79PC2U1mbboYuo1NUNvE8"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split"
@@ -35,12 +35,12 @@
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "mongodb+srv://revoy92066:manusingh@cluster0.sge9jjb.mongodb.net/?retryWrites=true&w=majority"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "pyro-botz",
-            "required": false
+            "value": "revoy92066",
+            "required": true
         },
         "START_PIC": {
             "description": "Your Bot start cmd Pic from @MT_TelegraPH_Bot",
@@ -50,7 +50,7 @@
     },
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "url": "render/python"
         }
     ]
 }
